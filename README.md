@@ -1,1 +1,0 @@
-papers/position-paper/src/position-paper_uk.md
