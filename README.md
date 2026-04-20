@@ -30,13 +30,10 @@ Within this perspective, the accessible world of a subject is not identical to t
 
 ## Documents
 
-### Position Paper — English
-
-- [PDF](./docs/en/position-paper.pdf)
-
-### Position Paper — Українська
-
-- [PDF](./docs/uk/position-paper.pdf)
+| Document | Language | Format |
+| :--- | :--- | :--- |
+| **Position Paper** | English | [PDF]() |
+| **Position Paper** | Українська | [PDF](./docs/articles/position-paper/build/uk/position-paper_uk.pdf) |
 
 ---
 
