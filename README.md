@@ -8,7 +8,7 @@ This repository is dedicated to the development, discussion, and dissemination o
 
 **The Difference Field and Emergent Invariants**
 
-At the current stage, this project should be understood as an early conceptual research program rather than a completed theory. Its central proposal is that reality may not fundamentally consist of ready-made objects located in space and time. Instead, there may exist a more primitive **Difference Field** (`D`), from which stable structures, information, space, time, and the subject (`S`) emerge through multilevel compression and the formation of invariants (`I`, `\mathcal{I}`).
+At the current stage, this project should be understood as an early conceptual research program rather than a completed theory. Its central proposal is that reality may not fundamentally consist of ready-made objects located in space and time. Instead, there may exist a more primitive **Difference Field** (`D`), from which stable structures, information, space, time, and the subject (`S`) emerge through multilevel compression and the formation of invariants ($\mathcal{I}$).
 
 The purpose of this repository is to make these materials openly available for critical examination, refinement, translation, and interdisciplinary discussion.
 
@@ -20,7 +20,7 @@ The framework explored here is based on several working ideas:
 
 - **Difference Field (`D`)** — a pre-object field of distinctions that is not yet organized into objects, space, time, or meaning.
 - **Invariant (`I`)** — a stable form obtained through the compression of differences.
-- **System of invariants (`\mathcal{I}`)** — a structured set of invariants available to a subject.
+- **System of invariants ($\mathcal{I}$)** — a structured set of invariants available to a subject.
 - **Subject (`S`)** — a higher-order invariant structure that maintains its own continuity while integrating an accessible world.
 - **Compression** — the process through which a limited system reduces the complexity of the Difference Field and stabilizes distinctions into invariants.
 
@@ -34,24 +34,6 @@ Within this perspective, the accessible world of a subject is not identical to t
 | :--- | :--- | :--- |
 | **Position Paper** | English | [PDF]() |
 | **Position Paper** | Українська | [PDF](./docs/articles/position-paper/build/uk/position-paper_uk.pdf) |
-
----
-
-## Repository structure
-
-```text
-docs/
-  en/
-  uk/
-  latex/
-  pdf/
-  md/
-
-notes/
-images/
-references/
-models/
-````
 
 ---
 
@@ -143,5 +125,34 @@ GitHub repository, 2026.
 ---
 
 ## Notes
+
+---
+
+## Repository structure
+
+| Directory | Description (EN) | Опис (UK) |
+|---|---|---|
+| `/scripts` | Shell scripts and helper tools for building, cleaning, and converting repository documents. | Shell-скрипти та допоміжні інструменти для збірки, очищення й конвертації документів репозиторію. |
+| `/shared` | Shared resources reused across multiple documents and languages. | Спільні ресурси, які повторно використовуються в кількох документах і мовних версіях. |
+| `/shared/latex` | Common LaTeX preamble, macros, notation definitions, and style fragments. | Спільні LaTeX-преамбули, макроси, означення позначень і фрагменти стилю. |
+| `/shared/bibliography` | Central BibTeX bibliography files used by articles and notes. | Центральні файли бібліографії BibTeX, які використовуються статтями та нотатками. |
+| `/shared/vocabulary` | Shared glossary and terminology resources in machine-readable and publishing formats. | Спільні ресурси словника й термінології в машиночитному та публікаційному форматах. |
+| `/docs` | Main document space containing articles, notes, and vocabulary outputs. | Основний простір документів, що містить статті, нотатки та згенеровані словники. |
+| `/docs/articles` | Top-level directory for article families grouped by document identity. | Кореневий каталог для сімейств статей, згрупованих за ідентичністю документа. |
+| `/docs/articles/position-paper` | Directory for the position paper and all related sources, outputs, and metadata. | Каталог для position paper та всіх пов’язаних із ним джерел, артефактів і метаданих. |
+| `/docs/notes` | Top-level directory for research notes and shorter working documents. | Кореневий каталог для дослідницьких нотаток і коротших робочих документів. |
+| `/docs/vocabulary` | Published and source glossary materials. | Опубліковані та вихідні матеріали словника. |
+| `/figures` | Central storage for visual resources shared across the repository. | Центральне сховище візуальних ресурсів, спільних для всього репозиторію. |
+| `/figures/common` | Reusable figures shared by multiple documents. | Багаторазові рисунки, спільні для кількох документів. |
+| `/figures/article-specific` | Figures that belong to particular articles but are stored centrally. | Рисунки, що належать окремим статтям, але зберігаються централізовано. |
+| `/figures/source` | Editable source files for diagrams and illustrations. | Редаговані вихідні файли для схем та ілюстрацій. |
+| `/references` | Additional reference materials, imported papers, and supporting documents. | Додаткові довідкові матеріали, імпортовані статті та допоміжні документи. |
+| `/models` | Computational models, experiments, or future simulation-related resources. | Обчислювальні моделі, експерименти або майбутні ресурси, пов’язані з моделюванням. |
+| `/notes` | General top-level notes not yet assigned to a specific document family. | Загальні верхньорівневі нотатки, ще не прив’язані до конкретного сімейства документів. |
+| `/archive` | Archived materials that are no longer part of the active document workflow. | Архівні матеріали, які більше не входять до активного робочого процесу документів. |
+| `/archive/old-versions` | Older preserved versions of documents or sources. | Старі збережені версії документів або вихідних файлів. |
+| `/archive/deprecated` | Deprecated materials kept for historical or comparative reasons. | Застарілі матеріали, що зберігаються з історичних або порівняльних міркувань. |
+
+---
 
 This repository is intended as a place for publishing and developing research materials, not as a claim that the framework presented here is already complete or verified. Its primary purpose is to introduce a conceptual perspective that may later support more rigorous formal, physical, mathematical, and interdisciplinary work.
